@@ -2799,7 +2799,7 @@
 		}
 
 		.wrapper.style3 {
-			background-color: #505393;
+			background-color: #4c71a2;
 			color: #d3d4e4;
 		}
 
@@ -3160,7 +3160,7 @@
 		-ms-transition: -ms-transform 0.5s ease;
 		transition: transform 0.5s ease;
 		-webkit-overflow-scrolling: touch;
-		background: #21b2a6;
+		background: #4c71a2;
 		color: #ffffff;
 		height: 100%;
 		max-width: 80%;
