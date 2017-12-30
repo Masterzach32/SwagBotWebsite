@@ -28,7 +28,7 @@
 										<ul>
 											<li><a href="index.html">Home</a></li>
 											<li><a href="commands.html">Commands</a></li>
-                                            <li><a href="permissions.html">Permissions</a></li>
+											<li><a href="permissions.html">Permissions</a></li>
 											<li><a href="developers.html">Developers</a></li>
 											<li><a href="terms.html">Terms of Service</a></li>
 										</ul>
@@ -41,12 +41,24 @@
 				<!-- Main -->
 					<article id="main">
 						<header>
-							<h2>Developers</h2>
-							<p>The people who make SwagBot</p>
+							<h2>Permissions</h2>
 						</header>
 						<section class="wrapper style5">
 							<div class="inner">
-								<p>This page is under construction. Come back soon!</p>
+								<p>SwagBot has four permission levels:</p>
+                                <ul>
+                                    <li>NONE - Users only have access to commands like <code>~help</code> and <code>~info</code>.</li>
+                                    <li>NORMAL - Default permission level.</li>
+                                    <li>MOD - Allows users to access moderator commands.</li>
+                                    <li>ADMIN - Allows users to access admin commands.</li>
+                                </ul>
+                                <p>When SwagBot first joins a server, it gives the server owner the permission of ADMIN.
+                                    Everyone else on the server starts with the NORMAL permission level. Only users with
+                                    the ADMIN permission level may change other's permissions.</p>
+                                <p>To change other user's permissions, an ADMIN must use the <code>~permission</code>
+                                    command. To do this, they type <code>~permission [NONE, NORMAL, MOD, or ADMIN]
+                                    [list of mentioned users]</code>. They may mention direct users or roles, separated
+                                    by spaces.</p>
 							</div>
 						</section>
 					</article>
