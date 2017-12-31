@@ -15,4 +15,12 @@
   #main ul.command-links a {
     border-bottom: none; }
 
+a {
+  border-bottom: solid 1px;
+  transition: 0.2s; }
+
+a:hover {
+  border-bottom-color: transparent;
+  transition: 0.2s; }
+
 /*# sourceMappingURL=style.css.map */
