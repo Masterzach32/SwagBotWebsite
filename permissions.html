@@ -27,6 +27,7 @@
 									<div id="menu">
 										<ul>
 											<li><a href="index.html">Home</a></li>
+											<li><a href="gettingstarted.html">Getting Started</a></li>
 											<li><a href="commands.html">Commands</a></li>
 											<li><a href="permissions.html">Permissions</a></li>
 											<li><a href="developers.html">Developers</a></li>
@@ -59,6 +60,10 @@
                                     command. To do this, they type <code>~permission [NONE, NORMAL, MOD, or ADMIN]
                                     [list of mentioned users]</code>. They may mention direct users or roles, separated
                                     by spaces.</p>
+                                <p>Commands which require Discord permissions, also require that the user invoking
+                                    those commands to have the same Discord permissions. For example, <code>~migrate</code>
+                                    requires SwagBot to have the <strong>Move Members</strong> permission, as well as the
+                                    user invoking the command. This is implemented as an extra layer of security.</p>
 							</div>
 						</section>
 					</article>
