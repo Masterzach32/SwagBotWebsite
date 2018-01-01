@@ -23,4 +23,8 @@ a:hover {
   border-bottom-color: transparent;
   transition: 0.2s; }
 
+#footer {
+  padding-top: 3rem;
+  padding-bottom: 2rem; }
+
 /*# sourceMappingURL=style.css.map */
