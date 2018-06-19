@@ -27,4 +27,13 @@ a:hover {
   padding-top: 3rem;
   padding-bottom: 2rem; }
 
+.button:hover {
+  -ms-transform: translate(0, -1px);
+  transform: translate(0, -1px);
+  transition: all 100ms ease, transform 150ms cubic-bezier(0, 0, 0, 1); }
+.button:active {
+  -ms-transform: translate(0, 1px);
+  transform: translate(0, 1px);
+  transition: all 50ms ease; }
+
 /*# sourceMappingURL=style.css.map */
